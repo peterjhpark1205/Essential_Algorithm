@@ -15,7 +15,7 @@
 
 def bubble_sort(list):
     swap = False
-    for index in range(len(list)-1):
+    for index in range(len(list) - 1):
         for index2 in range(len(list) - index - 1):
             if list[index2] > list[index2 + 1]:
                 list[index2], list[index2 + 1] = list[index2 + 1], list[index2]
