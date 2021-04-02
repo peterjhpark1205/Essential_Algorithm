@@ -14,19 +14,23 @@
 
 
 def bubble_sort(list):
-    swap = False
     for index in range(len(list) - 1):
+        swap = False
         for index2 in range(len(list) - index - 1):
             if list[index2] > list[index2 + 1]:
                 list[index2], list[index2 + 1] = list[index2 + 1], list[index2]
                 swap = True
             else:
                 pass
-                swap = False
         if swap is False:
             break
 
     return list
-        
+
+
+##Time Complexity Issue##
+
+# If the list is already sorted, Time Complexity will be O(n).
+# However, in average cases Time Complexity will be O(n**2).
   
 
