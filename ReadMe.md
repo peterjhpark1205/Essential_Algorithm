@@ -1,4 +1,4 @@
-# Essential Algoritm
+# Essential Algoritms
 
-This repostitory has several algorithms which are essential and can be used in complicated problems.
+기본이 되는 알고리즘을 배우고 저장해 놓는 
 
